@@ -1,3 +1,62 @@
-html {
-	font-family: 'Roboto', sans-serif;
+.body {
+	margin: 0px;
+}
+
+.header { /*шапка сайта*/
+	display: flex;
+	box-sizing: border-box;
+	width: 1300px;
+	height: 80px;
+	margin: 0 auto;
+	padding-right: 16px;
+	background: #213B7E;
+	min-height: 80px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.img-logo {
+	display: flex;
+	padding: 16px 0px 17px 16px;
 } 
+
+.navigate { /*навигация по шапке*/
+	display: flex;
+	align-self: stretch;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.menu-link { /*само меню навигации шапки*/
+	display: flex;
+	align-self: stretch;
+	padding: 0px;
+	margin: 0px;
+	align-items: center;
+	padding: 0 18px;
+	background-color: #213B7E;
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.menu-link:hover {
+	background-color: #FFFFFF;
+	color: #213B7E;
+	text-decoration: none;
+}
+
+.login { /*кнопка Логин*/
+	display: flex;
+	justify-content: center;
+	width: 153px;
+	height: 50px;
+	align-items: center;
+	background-color: #EA5D21;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	font-family: 'Roboto';
+}
