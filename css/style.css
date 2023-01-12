@@ -1,8 +1,13 @@
 .body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 	margin: 0px;
 }
 
-.header { /*шапка сайта*/
+/* css for header */
+.header {
+	/*шапка сайта*/
 	display: flex;
 	box-sizing: border-box;
 	width: 1300px;
@@ -15,12 +20,14 @@
 	align-items: center;
 }
 
-.img-logo { /*Логотип сайта*/
+.img-logo {
+	/*Логотип сайта*/
 	display: flex;
 	padding: 16px 0px 17px 16px;
-} 
+}
 
-.navigate { /*навигация по шапке*/
+.navigate {
+	/*навигация по шапке*/
 	display: flex;
 	align-self: stretch;
 	padding: 0px;
@@ -28,7 +35,8 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-.menu-link { /*само меню навигации шапки*/
+.menu-link {
+	/*само меню навигации шапки*/
 	display: flex;
 	align-self: stretch;
 	padding: 0px;
@@ -48,7 +56,8 @@
 	text-decoration: none;
 }
 
-.login { /*кнопка Логин*/
+.login {
+	/*кнопка Логин*/
 	display: flex;
 	justify-content: center;
 	width: 153px;
@@ -60,4 +69,73 @@
 	font-weight: 400;
 	font-style: normal;
 	font-family: 'Roboto', sans-serif;
+}
+
+/* css for main content */
+.main-content {
+	width: 911px;
+	margin: 0 auto;
+	flex-grow: 1;
+}
+
+.welcome {
+	text-align: center;
+	margin-top: 33px;
+	margin-bottom: 25px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 35px;
+	color: #000000;
+}
+
+.photo-student {
+	width: 523px;
+	height: 316px;
+}
+
+.zagolovok1 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 29px;
+	margin-top: 15px;
+}
+
+.text1 {
+	width: 634px;
+	height: 127px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+/* css footer */
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	width: 1300px;
+	min-height: 60px;
+	background: #213B7E;
+	margin: 0 auto;
+	padding: 0 16px;
+}
+
+.foot-text {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.silka {
+	color: rgba(255, 255, 255, 0.5);
 }
