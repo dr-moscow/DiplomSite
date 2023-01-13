@@ -114,6 +114,16 @@
 	line-height: 21px;
 }
 
+.bold {
+	font-weight: bold;
+	color: #000000;
+}
+
+.bold2 {
+	font-style: italic;
+	color: #CF5510;
+}
+
 /* css footer */
 .footer {
 	display: flex;
@@ -125,6 +135,7 @@
 	background: #213B7E;
 	margin: 0 auto;
 	padding: 0 16px;
+	margin-top: 187px;
 }
 
 .foot-text {
