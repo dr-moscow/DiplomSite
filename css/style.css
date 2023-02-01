@@ -6,7 +6,8 @@
 }
 
 /* css for header */
-.header { /*шапка сайта*/
+.header {
+	/*шапка сайта*/
 	display: flex;
 	box-sizing: border-box;
 	max-width: 1300px;
@@ -20,12 +21,14 @@
 	align-items: center;
 }
 
-.img-logo { /*Логотип сайта*/
+.img-logo {
+	/*Логотип сайта*/
 	display: flex;
 	padding: 16px 0px 17px 16px;
 }
 
-.navigate { /*навигация по шапке*/
+.navigate {
+	/*навигация по шапке*/
 	display: flex;
 	flex-wrap: wrap;
 	align-self: stretch;
@@ -34,7 +37,14 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-.menu-link { /*само меню навигации шапки*/
+/* .activ {
+	color: #21387E;
+	background-color: #FFFFFF;
+	text-decoration: none;
+} */
+
+.menu-link {
+	/*само меню навигации шапки*/
 	display: flex;
 	align-self: stretch;
 	padding: 0px;
@@ -54,7 +64,8 @@
 	text-decoration: none;
 }
 
-.login { /*кнопка Логин*/
+.login {
+	/*кнопка Логин*/
 	display: flex;
 	justify-content: center;
 	width: 153px;
@@ -66,6 +77,92 @@
 	font-weight: 400;
 	font-style: normal;
 	font-family: 'Roboto', sans-serif;
+}
+
+/*Popup login*/
+.login-popup {
+	position: absolute;
+	box-sizing: border-box;
+	max-width: 500px;
+	min-height: 418px;
+	width: 100%;
+	padding: 10px 38px 0px 38px;
+	background: #FFFFFF;
+	background-color: #FFFFFF;
+	border: 1px solid #213B7E;
+	z-index: 2;
+	transform: translateX(55%);
+	transform: translateY(-72%);
+	bottom: 0;
+	left: 37%;
+}
+
+.login-heading {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	/* line-height: 28px; */
+	color: #000000;
+	text-align: center;
+}
+
+.login-form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.login-form>input {
+	width: 100%;
+	max-width: 500px;
+	max-height: 55px;
+	margin-bottom: 56px;
+	border: 1px solid #808080;
+}
+
+.login-input {
+	max-width: 444px;
+	max-height: 55px;
+	background: #FFFFFF;
+	border: 1px solid #808080;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	/* line-height: 28px; */
+	color: #808080;
+	padding: 14px;
+}
+
+.login-pass {
+	max-width: 444px;
+	max-height: 55px;
+	background: #FFFFFF;
+	border: 1px solid #808080;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	/* line-height: 28px; */
+	color: #808080;
+	padding: 14px;
+}
+
+.popup-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 153px;
+	min-height: 50px;
+	text-decoration: none;
+	border: none;
+	color: #FFFFFF;
+	background-color: #EA6113;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
 }
 
 /* css for main content */
