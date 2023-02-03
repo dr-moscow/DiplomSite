@@ -81,6 +81,7 @@
 
 /*Popup login*/
 .login-popup {
+	display: none;
 	position: absolute;
 	box-sizing: border-box;
 	max-width: 500px;
@@ -95,6 +96,10 @@
 	transform: translateY(-72%);
 	bottom: 0;
 	left: 37%;
+}
+
+.show-popup {
+	display: block;
 }
 
 .login-heading {
