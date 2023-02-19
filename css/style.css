@@ -213,6 +213,10 @@ h2 {
 	font-size: 18px;
 }
 
+.text:hover {
+	color: red;
+}
+
 .text2 {
 	max-width: 634px;
 	width: 100%;
@@ -222,6 +226,10 @@ h2 {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
+}
+
+.text2:hover {
+	color: green;
 }
 
 .bold {
