@@ -302,6 +302,53 @@ h2 {
 	width: 100%;
 }
 
+/*css for contact.html*/
+.contacty {
+	max-width: 1268px;
+	width: 100%;
+	margin: 0 auto;
+	/* display: flex; */
+	flex-grow: 1;
+	box-sizing: border-box;
+}
+
+.zagolovok1 {
+	display: flex;
+	text-align: left;
+	margin-top: 33px;
+	margin-bottom: 25px;
+	margin-left: 12%;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	color: #000000;
+}
+
+.photogoogle {
+	max-width: 1268px;
+	width: 100%;
+}
+
+.cont {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 29px;
+	margin-left: 12%;
+	margin-bottom: 7px;
+}
+
+.cont2 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	margin-left: 12%;
+	margin-top: 3px;
+}
+
 /* css footer */
 .footer {
 	display: flex;
