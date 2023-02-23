@@ -413,7 +413,7 @@ h2 {
 @media (max-width: 750px) {
 	.login-popup {
 		left: 0%;
-		transform: translateY(-78%);
+		transform: translateY(-65%);
 	}
 
 	h2 {
