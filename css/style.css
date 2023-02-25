@@ -52,6 +52,12 @@
 	font-size: 20px;
 }
 
+.active-link {
+	color: #213B7E;
+	background-color: #FFFFFF;
+	text-decoration: none;
+}
+
 .menu-link:hover {
 	background-color: #FFFFFF;
 	color: #213B7E;
