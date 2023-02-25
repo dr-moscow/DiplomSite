@@ -37,12 +37,6 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-/* .activ {
-	color: #21387E;
-	background-color: #FFFFFF;
-	text-decoration: none;
-} */
-
 .menu-link {
 	/*само меню навигации шапки*/
 	display: flex;
@@ -340,6 +334,24 @@ h2 {
 	/* display: flex; */
 	flex-grow: 1;
 	box-sizing: border-box;
+}
+
+/* css for новичек */
+#nov {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	background: #3AA828;
+	border-radius: 20px;
+	width: 94px;
+	height: 24px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 2px;
+	position: relative;
+	top: -372px;
+	left: 120px;
 }
 
 .zagolovok1 {
