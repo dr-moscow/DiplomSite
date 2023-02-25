@@ -285,6 +285,23 @@ h2 {
 	text-align: center;
 }
 
+.text4 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	display: block;
+	text-align: center;
+	/* padding-top: 18px; */
+	text-decoration: none;
+	color: #000000;
+}
+
+#img {
+	padding-bottom: 18px;
+}
+
 .stud-items {
 	display: flex;
 	flex-direction: row;
@@ -459,5 +476,9 @@ h2 {
 
 	.footer {
 		margin-top: 50px;
+	}
+
+	.text4 {
+		margin-bottom: 18px;
 	}
 }
