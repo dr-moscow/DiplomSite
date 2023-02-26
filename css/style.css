@@ -361,6 +361,7 @@ h2 {
 
 /* css for новичек */
 #nov {
+	display: block;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
@@ -375,6 +376,7 @@ h2 {
 	position: relative;
 	top: -372px;
 	left: 120px;
+	text-decoration: none;
 }
 
 .zagolovok1 {
