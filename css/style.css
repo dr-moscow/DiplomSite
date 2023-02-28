@@ -400,6 +400,41 @@ h2 {
 	width: 100%;
 }
 
+/* Применение псевдоклассов и псевдоэлементо */
+.stud:first-child {
+	background: greenyellow;
+}
+
+.stud:last-child {
+	background: greenyellow;
+}
+
+.mozg::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0 0 0 / 0.4);
+	z-index: -1;
+}
+
+p::first-letter {
+	font-size: 32px;
+	color: #F498AD;
+}
+
+p.text::first-line {
+	background-color: #716b6d;
+	padding: 0px;
+}
+
+::selection {
+	background-color: white;
+}
+/* end of Применение псевдоклассов и псевдоэлементо */
+
 .cont {
 	font-family: 'Roboto';
 	font-style: normal;
